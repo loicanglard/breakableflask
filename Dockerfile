@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 5000
 
+USER 10001
+
 CMD ["python", "main.py"]
